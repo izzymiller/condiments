@@ -12,13 +12,13 @@ view: izzy {
   }
 
   dimension: condiment {
-    label: "Cleaned condiment names, grouped together."
+    description: "Cleaned condiment names, grouped together."
     type: string
     sql: ${TABLE}.cleaned ;;
   }
 
   dimension: full_detail {
-    label: "The actual raw response from the DCL analyst."
+    description: "The actual raw response from the DCL analyst."
     type: string
     sql: ${TABLE}.full_detail ;;
   }
