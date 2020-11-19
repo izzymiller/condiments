@@ -11,22 +11,22 @@ view: condiments {
 
   dimension: is_condiment {
     type: yesno
-    sql: ${TABLE}.is_condiment=1 ;;
+    sql: ${TABLE}.is_condiment ;;
   }
 
   dimension: is_holy_trinity_kmr {
     type: yesno
-    sql: ${TABLE}."is_holy_trinity K/M/R"=1;;
+    sql: ${TABLE}.is_in_holy_trinity__K_M_R_;;
   }
 
   dimension: is_mayo_product {
     type: yesno
-    sql: ${TABLE}.is_mayo_product="Yes";;
+    sql: ${TABLE}.is_mayo_product_;;
   }
 
   dimension: is_spicy {
     type: yesno
-    sql: ${TABLE}.is_spicy="Yes" ;;
+    sql: ${TABLE}.is_spicy_ ;;
   }
 
   dimension: name {
