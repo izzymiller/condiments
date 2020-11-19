@@ -1,3 +1,5 @@
+### Condiment preference research performed by Dave Connors while on chat with Looker's DCL
+
 view: condiments {
   sql_table_name: `condiments.dave`
     ;;

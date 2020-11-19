@@ -1,3 +1,5 @@
+##Izzy's independent condiment survey of all DCL members, done with the initial intent of purchasing a sample of each for Dave, but that ended up looking like it would probably bankrupt me.
+
 view: izzy {
   sql_table_name: `condiments.izzy`
     ;;

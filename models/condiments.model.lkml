@@ -9,6 +9,8 @@ datagroup: condiments_default_datagroup {
 
 persist_with: condiments_default_datagroup
 
-explore: condiments {}
+explore: condiment_preferences {
+  view_name: condiments
+}
 
 explore: izzy {}
