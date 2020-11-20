@@ -32,7 +32,7 @@ view: condiments {
   dimension: name {
     type: string
     primary_key: yes
-    sql: ${TABLE}.name ;;
+    sql: ${TABLE}.agent ;;
   }
 
   measure: count {
